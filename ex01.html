@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <p id="n1">2</p>
+        <p id="n2">3</p>
+        <p id="result"></p>
+    </main>
+    <script>
+        
+        const num1 = document.getElementById('n1');
+        const num2 = document.getElementById('n2');
+        const res = document.getElementById('result');
+        
+        const v1 = Number(num1.innerText);
+        const v2 = Number(num2.innerText);
+        const r = v1 + v2;
+        res.innerText = `A soma de ${v1}+${v2} é ${r}`;
+    </script>
+</body>
+</html>
